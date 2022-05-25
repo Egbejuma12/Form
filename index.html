@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Form Request</h2>
+      </div>
+      <form action="" class="form" id="form">
+        <div class="form-container">
+          <label for="Username">Username</label>
+          <input type="text" placeholder="Username" id="Username" />
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <small>Please fill the field</small>
+        </div>
+
+        <div class="form-container">
+          <label for="Email">Email</label>
+          <input type="email" placeholder="e.g faith@gmail.com" id="Email" />
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <small>Please fill the field</small>
+        </div>
+
+        <div class="form-container">
+          <label for="Password">Password</label>
+          <input type="password" placeholder="Password" id="Password" />
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <small>Please fill the field</small>
+        </div>
+
+        <div class="form-container">
+          <label for="Confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            placeholder="Confirm-password"
+            id="Confirm-password"
+          />
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <small>Please fill the field</small>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <script src="./form.js"></script>
+  </body>
+</html>
